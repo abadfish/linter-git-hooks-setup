@@ -1,4 +1,4 @@
-const askQuestionSet = require("./askQuestionSet")
+import askQuestionSet from "./askQuestionSet"
 
 
 if(new Date().getFullYear() > 2021) {
@@ -10,6 +10,6 @@ const user = {
 }
 
 // Syntax and style errors to be reported by linter
-if (user.jobTitle = "manager") {
+if (user.jobTitle === "manager") {
     // user.jobTitle is now incorrect
 }

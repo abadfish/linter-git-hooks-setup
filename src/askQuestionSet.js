@@ -10,4 +10,4 @@ function askQuestionSet(){
 }
 
 
-module.exports = askQuestionSet;
+export default askQuestionSet;

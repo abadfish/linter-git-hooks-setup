@@ -1,0 +1,30 @@
+{
+  "name": "code-quality-linter-and-git-hooks-abadfish",
+  "version": "1.0.0",
+  "description": "## Setup",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeWithDragos/code-quality-linter-and-git-hooks-abadfish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWithDragos/code-quality-linter-and-git-hooks-abadfish/issues"
+  },
+  "homepage": "https://github.com/CodeWithDragos/code-quality-linter-and-git-hooks-abadfish#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-plugin-react": "^7.27.0",
+    "husky": "^7.0.4"
+  }
+}
